@@ -1,0 +1,79 @@
+.header{
+    text-align: center;
+    font-family: monospace;
+    padding: 30px;
+}
+
+.enlace_titulo:hover{
+    color: red;
+}
+
+.enlace_titulo{
+    text-decoration: none;
+    color: black;
+}
+
+.barra_nav{
+    text-align: center;
+}
+
+.barra_iconos{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.iconos{
+    display: flex;
+    margin-right: 20px;
+}
+
+.enlace_icono{
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+  color: black; /* Color del texto de los enlaces */
+  padding: 10px 15px; /* Espaciado interno de los enlaces (puedes ajustar según sea necesario) */
+  display: block;
+}
+
+.enlace_icono:hover{
+    color: red;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: center;
+}
+
+
+ @-webkit-keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+
+  /* Aplicar la animación al elemento h1 */
+  .animacion_titulo {
+        -webkit-animation: slide-in-fwd-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: slide-in-fwd-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
