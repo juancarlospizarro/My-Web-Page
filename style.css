@@ -41,9 +41,19 @@
     color: red;
 }
 
-.cuerpo{
+label{
+  display: block;
+}
+
+.cuerpo_contacto{
+    font-family:monospace;
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.formulario_cuerpo{
+  padding: 10px;
 }
 
 

@@ -16,22 +16,42 @@
 
         <header class="header">
 
-            <h1 class="titulo"><a class="enlace_titulo" href="index.html">JUAN CARLOS PIZARRO ALONSO</a></h1>
+            <h1 id="titulo" class="animacion_titulo"><a class="enlace_titulo" href="index.html">JUAN CARLOS PIZARRO ALONSO</a></h1>
             <nav class="barra_nav">
 
                 <ul class="barra_iconos">
                     <li class="icono"><a class="enlace_icono" href="index.html"><i class="bi bi-house-door-fill"></i> Inicio</a></li>
-                    <li class="icono"><a class="enlace_icono" href="proyectos.html"><i class="bi bi-folder-fill"></i> Proyectos</a></li>
                     <li class="icono"><a class="enlace_icono" href="contacto.html"><i class="bi bi-person-lines-fill"></i> Contacto</a></li>
                 </ul>
 
             </nav>
             
+            <hr>
 
         </header>
 
 
-        <div>
+        <div class="cuerpo_contacto">
+            <section>
+                <form id="formulario" method="post" action="/">
+                    <fieldset>
+                        <legend style="text-align: center;">DATOS PERSONALES</legend>
+                        <div class="formulario_cuerpo">
+                            <label>Nombre: <input type="text" name="name" required></label>
+                        </div>
+                        <div class="formulario_cuerpo">
+                            <label>Email: <input type="email" name="email" required></label>
+                        </div>
+                        <div class="formulario_cuerpo">
+                            <label>Texto: <input type="text" name="name" required></label>
+                        </div>
+                        <div  style="text-align: center;">
+                            <button type="submit">Enviar solicitud</button>
+                        </div>
+                        
+                    </fieldset>
+                </form>
+            </section>
 
         </div>
 
